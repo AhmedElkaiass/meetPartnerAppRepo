@@ -1,6 +1,3 @@
-using System.Collections;
-using System.Collections.Generic;
-using System.Security.Cryptography.X509Certificates;
 using UnityEngine;
 
 public class MainScript : MonoBehaviour
@@ -17,12 +14,14 @@ public class MainScript : MonoBehaviour
 
         logo.alpha = 0;
         LeanTween.alphaCanvas(logo, 1, startingAnimationSpeed).setOnComplete(OpennextPage);
-
     }
 
     void OpennextPage()
     {
         pages.splashScreen.SetActive(false);
-        pages.register.SetActive(true);
+        pages.readMe.SetActive(true);
     }
 }
+
+
+

@@ -5,6 +5,7 @@ using UnityEngine;
 public class Pages : MonoBehaviour
 {
     public GameObject splashScreen;
+    public GameObject readMe;
     public GameObject register;
     public GameObject login;
     public GameObject forgetPassword;
@@ -12,5 +13,6 @@ public class Pages : MonoBehaviour
     public GameObject contact;
     public GameObject projects;
     public GameObject account;
+    public GameObject Loading;
 
 }

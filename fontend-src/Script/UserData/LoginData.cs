@@ -2,8 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public static class LoginData
+public class LoginData
 {
-    public static string email;
-    public static string password;
+    public string email;
+    public string password;
 }
